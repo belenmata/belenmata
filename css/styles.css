@@ -1,0 +1,223 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #e4f9f5;
+  color: #5e5f62;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  color: #c5667c;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #802d40;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #5e5f62;
+}
+
+.nav-link:hover {
+  color: #f29c1f;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.small-heading {
+  color: #f29c1f;
+}
+
+.subtitle {
+  margin: 10% 0;
+  opacity: 0.6;
+}
+
+
+/* Title image */
+
+.shark-img {
+  width: 70%;
+  position: absolute;
+  right: 10%;
+}
+
+/* Skills */
+
+#skills {
+  background-color: #fff;
+  position: relative;
+}
+
+.skill-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #c5667c;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #802d40;
+}
+
+.skill-title {
+   font-size: 1.5rem;
+}
+
+/* Background */
+
+.background-box {
+  padding: 3%;
+  text-align: center;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #66BFBF;
+}
+
+.testimonial-text {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-author {
+  color: #e4f9f5;
+}
+
+/* Projects */
+
+#projects {
+  /* padding: 100px; */
+  padding: 7% 15%;
+}
+
+.project-title {
+  font-size: 1.5rem;
+}
+
+.project-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.project-column {
+  padding: 3% 2%;
+}
+
+.project-img {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.project-img:hover {
+  width: 100%;
+  opacity: 1;
+}
+
+/* Contact */
+
+.personal-img {
+  width: 100px;
+  margin-bottom: 3%;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+}
+
+.sm-icons {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .shark-img {
+    position: static;
+  }
+
+}
